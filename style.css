@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corDestaque: hsl(25, 97%, 53%);
+    --branco: hsl(0, 100%, 100%);
+    --cinza500: hsl(217, 12%, 63%);
+    --cinza900: hsl(213, 19%, 18%);
+    --cinza950: hsl(216, 12%, 8%);
+}
+
+body {
+    background-color: var(--cinza950);
+    color: var(--branco);
+}
+
+.interactive {
+    background-color: var(--cinza900);
+    margin: 20px 0;
+}
+
+#thankyou {
+    visibility: hidden;
+}
