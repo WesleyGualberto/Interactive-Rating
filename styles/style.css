@@ -18,7 +18,25 @@ body {
 
 .interactive {
     background-color: var(--cinza900);
-    margin: 20px 0;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 20px;
+}
+
+h2 {
+    color: var(--corDestaque);
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.rating {
+    margin-bottom: 20px;
+    border-style: none;
 }
 
 #thankyou {
