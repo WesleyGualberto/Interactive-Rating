@@ -31,6 +31,16 @@ body {
   border-radius: 20px;
 }
 
+.starIcon {
+  margin: 20px 0;
+  height: 2em;
+
+  background-color: rgba(255, 255, 255, 0.096);
+  background-size: cover;
+  
+  border-radius: 50px;
+}
+
 h2 {
   color: var(--branco);
   font-weight: var(--pesoTitulos);
@@ -83,4 +93,8 @@ p {
 
 #thankyou {
   visibility: hidden;
+}
+
+.attribution {
+  text-align: center;
 }
