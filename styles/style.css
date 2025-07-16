@@ -125,11 +125,13 @@ p {
   transition: 0.5s ease;
 }
 
-#thankyou {
-  visibility: hidden;
-
-    display: grid;
+.thankyou {
+  display: grid;
   place-items: center;
+}
+
+.escondido {
+  display: none;
 }
 
 #youSelected {
