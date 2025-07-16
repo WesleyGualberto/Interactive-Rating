@@ -16,6 +16,6 @@ botao.addEventListener("click", function() {
 
         divAgradecimento.classList.remove("escondido")
     } else {
-        window.alert("Escolha uma nota para registrar seu voto!");
+        window.alert("Escolha uma nota para registrar seu voto! ⚠️");
     }
 })
